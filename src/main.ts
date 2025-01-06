@@ -22,42 +22,46 @@ import VueApexCharts from 'vue3-apexcharts'
 import App from './App.vue'
 import router from './router'
 
-const app = createApp(App)
+async function bootstrap() {
+  const app = createApp(App)
 
-app.use(createPinia())
+  app.use(createPinia())
 
-// Initialize firebase auth
-const authStore = useAuthStore()
-await authStore.initAuth()
+  // Initialize firebase auth
+  const authStore = useAuthStore()
+  await authStore.initAuth()
 
-app.use(router)
+  app.use(router)
 
-// Vuetify
-const vuetify = createVuetify({
-  locale: {
-    locale: 'fr',
-    messages: { en, fr },
-  },
-  components: {
-    VDateInput,
-    ...components,
-  },
-  directives,
-  theme: {
-    defaultTheme,
-    themes: {
-      light: lightTheme,
-      dark: darkTheme,
+  // Vuetify
+  const vuetify = createVuetify({
+    locale: {
+      locale: 'fr',
+      messages: { en, fr },
     },
-  },
-})
+    components: {
+      VDateInput,
+      ...components,
+    },
+    directives,
+    theme: {
+      defaultTheme,
+      themes: {
+        light: lightTheme,
+        dark: darkTheme,
+      },
+    },
+  })
 
-app.use(vuetify)
+  app.use(vuetify)
 
-app.use(VueSweetalert2)
+  app.use(VueSweetalert2)
 
-app.use(VueApexCharts)
+  app.use(VueApexCharts)
 
-console.log('app mount')
+  console.log('app mount')
 
-app.mount('#app')
+  app.mount('#app')
+}
+
+bootstrap()
