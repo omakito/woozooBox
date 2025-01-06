@@ -18,7 +18,7 @@ import PieChart from '@/components/dashboard/PieChart.vue'
     <CampaignHistory />
     <Offer />
   </div>
-  <div class="flex gap-7"><CoinsBarStack /><PieChart /></div>
+  <div class="flex gap-7 flex-wrap"><CoinsBarStack /><PieChart /></div>
 </template>
 
 <style scoped>
