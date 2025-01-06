@@ -1,0 +1,87 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'montserrat-500';
+  src: url('@/assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf')
+    format('woff');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url('@/assets/fonts/Montserrat/static/Montserrat-Black.ttf')
+    format('woff');
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'wb';
+  src:
+    url('@/assets/fonts/WB-Font/wb.woff2') format('woff2'),
+    url('@/assets/fonts/WB-Font/wb.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'wb-italic';
+  src:
+    url('@/assets/fonts/WB-Font/wb_italic.woff2') format('woff2'),
+    url('@/assets/fonts/WB-Font/wb_italic.woff') format('woff');
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'wb-500';
+  src:
+    url('@/assets/fonts/WB-Font/wb_500.woff2') format('woff2'),
+    url('@/assets/fonts/WB-Font/wb_500.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'wb-bold';
+  src:
+    url('@/assets/fonts/WB-Font/wb-bold.woff2') format('woff2'),
+    url('@/assets/fonts/WB-Font/wb-bold.woff') format('woff');
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'wb-italic-bold';
+  src:
+    url('@/assets/fonts/WB-Font/wb-bold_italic.woff2') format('woff2'),
+    url('@/assets/fonts/WB-Font/wb-bold_italic.woff') format('woff');
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  padding: 56px 40px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.v-tooltip > .v-overlay__content {
+  background-color: #252525 !important;
+  color: #fafafa !important;
+}

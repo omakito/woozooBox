@@ -1,0 +1,21 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 21" width="30" height="21">
+	<title>eye-svg</title>
+	<style>
+		.s0 { fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+		.s1 { fill: #4c4c4c } 
+		.s2 { fill: #61d78e } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" fill-rule="evenodd" class="s0" d="m648 133h26v18h-14"/>
+		<path id="Layer" fill-rule="evenodd" class="s0" d="m652 151h-4v-14"/>
+		<path id="Layer" fill-rule="evenodd" class="s0" d="m660 151l-8 6v-6"/>
+	</g>
+	<g id="Layer">
+		<g id="Layer">
+			<path id="Layer" class="s1" d="m15 20c-4.3 0-8.3-1.8-11.4-5.1-0.3-0.4-0.3-1 0.1-1.4 0.4-0.4 1-0.4 1.4 0 2.7 2.9 6.2 4.5 9.9 4.5 4.8 0 9.1-2.6 11.8-7-2.7-4.4-7-7-11.8-7-4.9 0-9.5 2.8-12.1 7.5-0.3 0.5-0.9 0.6-1.4 0.4-0.5-0.3-0.6-0.9-0.4-1.4 3-5.3 8.2-8.5 13.9-8.5 5.7 0 10.9 3.2 13.9 8.5 0.1 0.3 0.1 0.7 0 1-3 5.3-8.2 8.5-13.9 8.5z"/>
+		</g>
+		<g id="Layer">
+			<path id="Layer" fill-rule="evenodd" class="s2" d="m15 16c-2.8 0-5-2.2-5-5 0-2.8 2.2-5 5-5 2.8 0 5 2.2 5 5 0 2.8-2.2 5-5 5zm0-8c-1.7 0-3 1.3-3 3 0 1.7 1.3 3 3 3 1.7 0 3-1.3 3-3 0-1.7-1.3-3-3-3z"/>
+		</g>
+	</g>
+</svg>

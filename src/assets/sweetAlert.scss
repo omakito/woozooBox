@@ -1,0 +1,20 @@
+$green-primary: #61d78e;
+
+.swal2-container {
+  z-index: 20001 !important;
+  .swal2-icon.swal2-question {
+    color: $green-primary;
+    border-color: $green-primary;
+  }
+
+  .swal2-actions .swal2-styled {
+    border: 2px solid $green-primary !important;
+    padding: 5px 15px;
+    &.swal-confirm-button {
+      background-color: $green-primary;
+    }
+    &:focus {
+      box-shadow: 0 0 0 3px rgba(97, 215, 142, 0.5) !important;
+    }
+  }
+}
